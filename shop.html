@@ -1,0 +1,821 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JRE</title>
+    <link rel="icon" type="image/x-icon" href="Images/oh nono.png">
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/shop.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rufina:wght@700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/js/swiffy-slider.min.js" crossorigin="anonymous" defer></script>
+    <link href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/css/swiffy-slider.min.css" rel="stylesheet" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Philosopher:wght@400;700&family=Poppins:wght@400;500&family=Rufina:wght@400;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <nav id="top">
+      <div class="container">
+        <div class="top-left contacts hidden-xs">
+          <span class="contact-time">
+            <i class="fa-regular fa-clock fa2"></i>
+          <span>Mon-Sat: 8:00 AM - 6:00 PM / Sun Closed</span>
+          </span>
+        </div>
+        <div class="top-right">
+          <div id="header_ac" class="dropdown">
+            <a href="#" title="My Account" class="dropdown-toggle" data-toggle="dropdown" >
+                <span>
+                  <i class="fa-regular fa-user fa2"></i>
+                  My Account
+              </span>
+            </a>
+            <ul class="dropdown-menu dropdown-menu-right account-link-toggle" style="display: none;">
+              <li>
+                <a href="#">Register</a>
+              </li>
+              <li>
+                <a href="#">Login</a>
+              </li>
+             </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+
+      <header>
+        <div class="header-top">
+          <div class="container">
+            <div class="grid">
+              <div class="contact-icon column-md-4 hidden-xs hidden-sm">
+                <a ckass=search-button href="Faq.html">
+                  <i class="icon-support"></i>
+                  <span>
+                  <span>Call Us</span><br>
+                  <span>Free Support: 911</span>
+                  </span>
+                </a>
+              </div>
+
+              <div id="logo" class="column-md-4 column-xs-6">
+                <a href=""><img src="Images/JRELOGO.png" alt=""></a>
+              </div>
+
+              <div class="header-right header-links column-md-4 column-xs-6">
+                  <div class="btn_search">
+                    <a href="" class="search-btn">
+                      <i class="fa-solid fa-magnifying-glass icon-search"></i>
+                    </a>
+                  </div>
+
+                    <div class="header_cart">
+                      <div id="cart">
+                        <button type="button" data-toggle="dropdown" class="btn btn-inverse btn-block btn-lg dropdown-toggle pull-right">
+                          <span id="cart-total">0</span>
+                        </button>
+                        <ul class="dropdown-menu cart-items header-cart-toggle pull-right" style="display: none;">
+                          <li class="empty-cart">
+                              Your Shopping cart is empty!
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+              </div>
+
+            </div>
+          </div>
+          <div class="header-search">
+              <div id="jonsearch" class="input-group jon-search">
+                <input type="text" name="search" placeholder="Search..." class="form-control input-lg ui-autocomplete-input"
+                autocomplete="off">
+                <span class="btn-search">
+                  <button type="button" class="btn btn-default btn-lg">
+                    <i class="fa-solid fa-magnifying-glass icon-search"></i>
+                  </button>
+                </span>
+              </div>
+              <i class="fa-solid fa-x"></i>
+          </div>
+        </div>
+         
+        <hr class="divider">
+
+          <div class="header-center">
+            <div class="container">
+              <nav id="menu" class="navbar navbar_menu">
+                <ul class="nav navbar-nav">
+                  <li><a href="index.html" id="home">HOME</a></li>
+                  <li><a href="shop.html" id="home">SHOP BY</a></li>
+                  <li><a href="Faq.html" id="home">FAQS</a></li>
+                  <li><a href="who.html" id="home">WHO WE ARE</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+       </header>
+
+       <div class="breadcrumbs-back">
+        <div class="container breadcrumb-container">
+          <div class="breadcrumbs-row clearfix">
+            <h2 class="page-title">SHOP BY</h2>
+            <ul class="breadcrumb">
+              <li><a href="index.html">HOME</a></li>
+              <li><a href="shop.html">SHOP BY</a></li>
+              <li></li>
+            </ul>
+          </div>
+        </div>
+       </div>
+
+  
+    <main>
+      <section class="shop-section">
+        <div class="container">
+            <div class="grid">
+                <!-- Product 1 -->
+                <div class="column-xs-12 column-sm-6 column-md-3">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="Images/1 tshirt.png" alt="T-Shirt" class="product-thumb">
+                            <span class="discount-tag">20% OFF</span>
+                            <button class="card-btn" data-id="1" data-name="RoseThreads T-Shirt" data-img="images/Card1.png" data-price="40.00">ADD TO CART</button>
+                        </div>
+                        <div class="product-info">
+                            <p class="product-brand">RoseThreads T-Shirt</p>
+                            <p class="product-short-description">Comfortable and stylish T-shirt</p>
+                            <div class="price">₱40.00 <span class="actual-price">₱50.00</span></div>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Product 2 -->
+                <div class="column-xs-12 column-sm-6 column-md-3">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="Images/3 hoodies.png" alt="Hoodie" class="product-thumb">
+                            <span class="discount-tag">15% OFF</span>
+                            <button class="card-btn" data-id="2" data-name="RoseThreads Hoodie" data-img="images/3 hoodies.png" data-price="60.00">ADD TO CART</button>
+                        </div>
+                        <div class="product-info">
+                            <p class="product-brand">RoseThreads Hoodie</p>
+                            <p class="product-short-description">Cozy to keep you warm and stylish</p>
+                            <div class="price">₱60.00 <span class="actual-price">₱70.00</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Product 3 -->
+                <div class="column-xs-12 column-sm-6 column-md-3">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="Images/8 sweater.png" alt="Sweater" class="product-thumb">
+                            <span class="discount-tag">10% OFF</span>
+                            <button class="card-btn" data-id="3" data-name="RoseThreads Sweater" data-img="images/8 sweater.png" data-price="63.00">ADD TO CART</button>
+                        </div>
+                        <div class="product-info">
+                            <p class="product-brand">RoseThreads Sweater</p>
+                            <p class="product-short-description">Warm and stylish sweater</p>
+                            <div class="price">₱63.00 <span class="actual-price">₱70.00</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Product 4 -->
+                <div class="column-xs-12 column-sm-6 column-md-3">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="Images/10 tank tops.png" alt="Tank Top" class="product-thumb">
+                            <span class="discount-tag">5% OFF</span>
+                            <button class="card-btn" data-id="4" data-name="RoseThreads Tank Top" data-img="images/10 tank tops.png" data-price="38.00">ADD TO CART</button>
+                        </div>
+                        <div class="product-info">
+                            <p class="product-brand">RoseThreads Tank Top</p>
+                            <p class="product-short-description">Light and breathable</p>
+                            <div class="price">₱38.00 <span class="actual-price">₱40.00</span>
+                            </div>
+                        </div>
+                    </div>
+              </div>
+          </div>
+       </section>
+
+       <section class="shop-section">
+        <div class="container">
+            <div class="grid">
+                <!-- Product 1 -->
+                <div class="column-xs-12 column-sm-6 column-md-3">
+                    <div class="product-card">
+                        <div class="product-image">
+                          <img src="Images/16 necktie.png" alt="Necktie" class="product-thumb">
+                            <span class="discount-tag">20% OFF</span>
+                            <button class="card-btn" data-id="5" data-name="RoseThreads Necktie" data-img="images/16 necktie.png" data-price="40.00">ADD TO CART</button>
+                        </div>
+                        <div class="product-info">
+                          <p class="product-brand">RoseThreads Necktie</p>
+                          <p class="product-short-description">Elegant and formal</p>  
+                            <div class="price">₱40.00 <span class="actual-price">₱50.00</span></div>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Product 2 -->
+                <div class="column-xs-12 column-sm-6 column-md-3">
+                    <div class="product-card">
+                        <div class="product-image">
+                          <img src="Images/bajeds products omsim.png" alt="Necktie" class="product-thumb">
+                            <span class="discount-tag">15% OFF</span>
+                            <button class="card-btn" data-id="6" data-name="RoseThreads Polo Dress" data-img="images/bajeds products omsim.png" data-price="60.00">ADD TO CART</button>
+                        </div>
+                        <div class="product-info">
+                          <p class="product-brand">RoseThreads Polo Dress</p>
+                        <p class="product-short-description">Chic and comfortable</p>
+                            <div class="price">₱60.00 <span class="actual-price">₱70.00</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Product 3 -->
+                <div class="column-xs-12 column-sm-6 column-md-3">
+                    <div class="product-card">
+                        <div class="product-image">
+                          <img src="Images/23 chino pants.png" alt="Necktie" class="product-thumb">
+                            <span class="discount-tag">10% OFF</span>
+                            <button class="card-btn" data-id="7" data-name="RoseThreads Chino Pants" data-img="images/23 chino pants.png" data-price="63.00">ADD TO CART</button>
+                        </div>
+                        <div class="product-info">
+                          <p class="product-brand">RoseThreads Chino Pants</p>
+                          <p class="product-short-description">Tailored and versatile</p>  
+                            <div class="price">₱63.00 <span class="actual-price">₱70.00</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Product 4 -->
+                <div class="column-xs-12 column-sm-6 column-md-3">
+                    <div class="product-card">
+                        <div class="product-image">
+                          <img src="Images/26 mini skirt.png" alt="Necktie" class="product-thumb">
+                            <span class="discount-tag">5% OFF</span>
+                            <button class="card-btn" data-id="8" data-name="RoseThreads Mini Skirt" data-img="images/26 mini skirt.png" data-price="38.00">ADD TO CART</button>
+                        </div>
+                        <div class="product-info">
+                          <p class="product-brand">RoseThreads Mini Skirt</p>
+                          <p class="product-short-description">Trendy and flattering</p>  
+                            <div class="price">₱38.00 <span class="actual-price">₱40.00</span>
+                            </div>
+                        </div>
+                    </div>
+              </div>
+          </div>
+       </section>
+
+       <section class="shop-section">
+        <div class="container">
+            <div class="grid">
+                <!-- Product 1 -->
+                <div class="column-xs-12 column-sm-6 column-md-3">
+                    <div class="product-card">
+                        <div class="product-image">
+                          <img src="Images/30 crewnecks.png" alt="Necktie" class="product-thumb">
+                            <span class="discount-tag">20% OFF</span>
+                            <button class="card-btn" data-id="9" data-name="RoseThreads Crew Neck" data-img="images/30 crewnecks.png" data-price="40.00">ADD TO CART</button>
+                        </div>
+                        <div class="product-info">
+                          <p class="product-brand">RoseThreads Crew Neck</p>
+                          <p class="product-short-description">Cozy and durable</p>  
+                            <div class="price">₱40.00 <span class="actual-price">₱50.00</span></div>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Product 2 -->
+                <div class="column-xs-12 column-sm-6 column-md-3">
+                    <div class="product-card">
+                        <div class="product-image">
+                          <img src="Images/32 v neck.png" alt="Necktie" class="product-thumb">
+                            <span class="discount-tag">15% OFF</span>
+                            <button class="card-btn" data-id="10" data-name="RoseThreads V-Neck" data-img="images/32 v neck.png" data-price="60.00">ADD TO CART</button>
+                        </div>
+                        <div class="product-info">
+                          <p class="product-brand">RoseThreads V-Neck</p>
+                          <p class="product-short-description">Simple and refined</p>
+                            <div class="price">₱60.00 <span class="actual-price">₱70.00</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Product 3 -->
+                <div class="column-xs-12 column-sm-6 column-md-3">
+                    <div class="product-card">
+                        <div class="product-image">
+                          <img src="Images/36 jersey.png" alt="Jersey" class="product-thumb">
+                            <span class="discount-tag">10% OFF</span>
+                            <button class="card-btn" data-id="11" data-name="RoseThreads Jersey" data-img="images/36 jersey.png" data-price="63.00">ADD TO CART</button>
+                        </div>
+                        <div class="product-info">
+                          <p class="product-brand">RoseThreads Jersey</p>
+                          <p class="product-short-description">Sporty and breathable</p>  
+                            <div class="price">₱63.00 <span class="actual-price">₱70.00</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Product 4 -->
+                <div class="column-xs-12 column-sm-6 column-md-3">
+                    <div class="product-card">
+                        <div class="product-image">
+                          <img src="Images/38 compression shirt.png" alt="Women's Compression" class="product-thumb">
+                            <span class="discount-tag">5% OFF</span>
+                            <button class="card-btn" data-id="12" data-name="RoseThreads Women's Compression Shirt" data-img="images/38 compression shirt.png" data-price="38.00">ADD TO CART</button>
+                        </div>
+                        <div class="product-info">
+                          <p class="product-brand">RoseThreads Women's Compression Shirt</p>
+                          <p class="product-short-description">Supportive and moisture-wicking</p>  
+                            <div class="price">₱38.00 <span class="actual-price">₱40.00</span>
+                            </div>
+                        </div>
+                    </div>
+              </div>
+          </div>
+       </section>
+
+       <section class="shop-section">
+        <div class="container">
+            <div class="grid">
+                <!-- Product 1 -->
+                <div class="column-xs-12 column-sm-6 column-md-3">
+                    <div class="product-card">
+                        <div class="product-image">
+                          <img src="Images/39 compression shirt.png" alt="Men's Compression" class="product-thumb">
+                            <span class="discount-tag">20% OFF</span>
+                            <button class="card-btn" data-id="13" data-name="RoseThreads Men's Compression Shirt" data-img="images/39 compression shirt.png" data-price="40.00">ADD TO CART</button>
+                        </div>
+                        <div class="product-info">
+                          <p class="product-brand">RoseThreads Men's Compression Shirt</p>
+                          <p class="product-short-description">Comfortable and quick-drying</p>  
+                            <div class="price">₱40.00 <span class="actual-price">₱50.00</span></div>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Product 2 -->
+                <div class="column-xs-12 column-sm-6 column-md-3">
+                    <div class="product-card">
+                        <div class="product-image">
+                          <img src="Images/43 jorts.png" alt="Jorts" class="product-thumb">
+                            <span class="discount-tag">15% OFF</span>
+                            <button class="card-btn" data-id="14" data-name="RoseThreads Jorts" data-img="images/43 jorts.png" data-price="60.00">ADD TO CART</button>
+                        </div>
+                        <div class="product-info">
+                          <p class="product-brand">RoseThreads Jorts</p>
+                          <p class="product-short-description">Stylish denim jorts</p>  
+                            <div class="price">₱60.00 <span class="actual-price">₱70.00</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Product 3 -->
+                <div class="column-xs-12 column-sm-6 column-md-3">
+                    <div class="product-card">
+                        <div class="product-image">
+                          <img src="Images/46 pants.png" alt="Women's Pants" class="product-thumb">
+                            <span class="discount-tag">10% OFF</span>
+                            <button class="card-btn" data-id="15" data-name="RoseThreads Women's Pants" data-img="images/46 pants.png" data-price="63.00">ADD TO CART</button>
+                        </div>
+                        <div class="product-info">
+                          <p class="product-brand">RoseThreads Women's Pants</p>
+                          <p class="product-short-description">Semi-casual and versatile</p>  
+                            <div class="price">₱63.00 <span class="actual-price">₱70.00</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Product 4 -->
+                <div class="column-xs-12 column-sm-6 column-md-3">
+                    <div class="product-card">
+                        <div class="product-image">
+                          <img src="Images/47 pants.png" alt="Men's Pants" class="product-thumb">
+                            <span class="discount-tag">5% OFF</span>
+                            <button class="card-btn" data-id="16" data-name="RoseThreads Men's Pants" data-img="images/47 pants.png" data-price="38.00">ADD TO CART</button>
+                        </div>
+                        <div class="product-info">
+                          <p class="product-brand">RoseThreads Men's Pants</p>
+                          <p class="product-short-description">Sleek and comfortable</p>  
+                            <div class="price">₱38.00 <span class="actual-price">₱40.00</span>
+                            </div>
+                        </div>
+                    </div>
+              </div>
+          </div>
+       </section>
+
+       <section class="shop-section">
+        <div class="container">
+            <div class="grid">
+                <!-- Product 1 -->
+                <div class="column-xs-12 column-sm-6 column-md-3">
+                    <div class="product-card">
+                        <div class="product-image">
+                          <img src="Images/3.png" alt="Charm Key" class="product-thumb">
+                            <span class="discount-tag">20% OFF</span>
+                            <button class="card-btn" data-id="17" data-name="Reithan Charm Key" data-img="images/3.png" data-price="40.00">ADD TO CART</button>
+                        </div>
+                        <div class="product-info">
+                          <p class="product-brand">Reithan Charm Key</p>
+                          <p class="product-short-description">A sleek and stylish charm key</p>  
+                            <div class="price">₱40.00 <span class="actual-price">₱50.00</span></div>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Product 2 -->
+                <div class="column-xs-12 column-sm-6 column-md-3">
+                    <div class="product-card">
+                        <div class="product-image">
+                          <img src="Images/4 belt.png" alt="Belt" class="product-thumb">
+                            <span class="discount-tag">15% OFF</span>
+                            <button class="card-btn" data-id="18" data-name="Reithan Belt" data-img="images/4 belt.png" data-price="60.00">ADD TO CART</button>
+                        </div>
+                        <div class="product-info">
+                          <p class="product-brand">Reithan Belt</p>
+                          <p class="product-short-description">A durable, adjustable belt</p>  
+                            <div class="price">₱60.00 <span class="actual-price">₱70.00</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Product 3 -->
+                <div class="column-xs-12 column-sm-6 column-md-3">
+                    <div class="product-card">
+                        <div class="product-image">
+                          <img src="Images/37.png" alt="Tote Bag" class="product-thumb">
+                            <span class="discount-tag">10% OFF</span>
+                            <button class="card-btn" data-id="19" data-name="Reithan Tote Bag" data-img="images/37.png" data-price="63.00">ADD TO CART</button>
+                        </div>
+                        <div class="product-info">
+                          <p class="product-brand">Reithan Tote Bag</p>
+                          <p class="product-short-description">A spacious and stylish</p>  
+                            <div class="price">₱63.00 <span class="actual-price">₱70.00</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Product 4 -->
+                <div class="column-xs-12 column-sm-6 column-md-3">
+                    <div class="product-card">
+                        <div class="product-image">
+                          <img src="Images/9 wallet.png" alt="Wallet" class="product-thumb">
+                            <span class="discount-tag">5% OFF</span>
+                            <button class="card-btn" data-id="20" data-name="Reithan Wallet" data-img="images/9 wallet.png" data-price="38.00">ADD TO CART</button>
+                        </div>
+                        <div class="product-info">
+                          <p class="product-brand">Reithan Wallet</p>
+                          <p class="product-short-description">A high-quality with multiple compartments</p>  
+                            <div class="price">₱38.00 <span class="actual-price">₱40.00</span>
+                            </div>
+                        </div>
+                    </div>
+              </div>
+          </div>
+       </section>
+
+        <section class="shop-section">
+        <div class="container">
+            <div class="grid">
+                <!-- Product 1 -->
+                <div class="column-xs-12 column-sm-6 column-md-3">
+                    <div class="product-card">
+                        <div class="product-image">
+                          <img src="Images/11 pouch.png" alt="Pouch" class="product-thumb">
+                            <span class="discount-tag">20% OFF</span>
+                            <button class="card-btn" data-id="21" data-name="Reithan Pouch" data-img="images/11 pouch.png" data-price="40.00">ADD TO CART</button>
+                        </div>
+                        <div class="product-info">
+                          <p class="product-brand">Reithan Pouch</p>
+                          <p class="product-short-description">A versatile pouch organizer</p>  
+                            <div class="price">₱40.00 <span class="actual-price">₱50.00</span></div>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Product 2 -->
+                <div class="column-xs-12 column-sm-6 column-md-3">
+                    <div class="product-card">
+                        <div class="product-image">
+                          <img src="Images/14 scarf.png" alt="Scarf" class="product-thumb">
+                            <span class="discount-tag">15% OFF</span>
+                            <button class="card-btn" data-id="22" data-name="Reithan Scarf" data-img="images/14 scarf.png" data-price="60.00">ADD TO CART</button>
+                        </div>
+                        <div class="product-info">
+                          <p class="product-brand">Reithan Scarf</p>
+                          <p class="product-short-description">A soft and stylish scarf</p>  
+                            <div class="price">₱60.00 <span class="actual-price">₱70.00</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Product 3 -->
+                <div class="column-xs-12 column-sm-6 column-md-3">
+                    <div class="product-card">
+                        <div class="product-image">
+                          <img src="Images/18.png" alt="Watchband" class="product-thumb">
+                            <span class="discount-tag">10% OFF</span>
+                            <button class="card-btn" data-id="23" data-name="Reithan Watchband" data-img="images/18.png" data-price="63.00">ADD TO CART</button>
+                        </div>
+                        <div class="product-info">
+                          <p class="product-brand">Reithan Watchband</p>
+                          <p class="product-short-description">An adjustable and durable watchband</p>  
+                            <div class="price">₱63.00 <span class="actual-price">₱70.00</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Product 4 -->
+                <div class="column-xs-12 column-sm-6 column-md-3">
+                    <div class="product-card">
+                        <div class="product-image">
+                          <img src="Images/19 badge.png" alt="Pins/Badge" class="product-thumb">
+                            <span class="discount-tag">5% OFF</span>
+                            <button class="card-btn" data-id="24" data-name="Reithan Pins/Badge" data-img="images/19 badge.png" data-price="38.00">ADD TO CART</button>
+                        </div>
+                        <div class="product-info">
+                          <p class="product-brand">Reithan Pins/Badge</p>
+                          <p class="product-short-description">Creative pins and badges</p>  
+                            <div class="price">₱38.00 <span class="actual-price">₱40.00</span>
+                            </div>
+                        </div>
+                    </div>
+              </div>
+          </div>
+       </section>
+
+        <section class="shop-section">
+        <div class="container">
+            <div class="grid">
+                <!-- Product 1 -->
+                <div class="column-xs-12 column-sm-6 column-md-3">
+                    <div class="product-card">
+                        <div class="product-image">
+                          <img src="Images/23 caps.png" alt="Caps" class="product-thumb">
+                            <span class="discount-tag">20% OFF</span>
+                            <button class="card-btn" data-id="25" data-name="Reithan Caps" data-img="images/23 caps.png" data-price="40.00">ADD TO CART</button>
+                        </div>
+                        <div class="product-info">
+                          <p class="product-brand">Reithan Caps</p>
+                          <p class="product-short-description">Trendy caps for everyday wear</p>  
+                            <div class="price">₱40.00 <span class="actual-price">₱50.00</span></div>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Product 2 -->
+                <div class="column-xs-12 column-sm-6 column-md-3">
+                    <div class="product-card">
+                        <div class="product-image">
+                          <img src="Images/24 flip flops.png" alt="Flip-Flops" class="product-thumb">
+                            <span class="discount-tag">15% OFF</span>
+                            <button class="card-btn" data-id="26" data-name="Reithan Flip-Flops" data-img="images/24 flip flops.png" data-price="60.00">ADD TO CART</button>
+                        </div>
+                        <div class="product-info">
+                          <p class="product-brand">Reithan Flip-Flops</p>
+                          <p class="product-short-description">Comfortable and lightweight</p>  
+                            <div class="price">₱60.00 <span class="actual-price">₱70.00</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Product 3 -->
+                <div class="column-xs-12 column-sm-6 column-md-3">
+                    <div class="product-card">
+                        <div class="product-image">
+                          <img src="Images/28 guitar pick.png" alt="Guitar Picks" class="product-thumb">
+                            <span class="discount-tag">10% OFF</span>
+                            <button class="card-btn" data-id="27" data-name="Reithan Guitar Picks" data-img="images/28 guitar pick.png" data-price="63.00">ADD TO CART</button>
+                        </div>
+                        <div class="product-info">
+                          <p class="product-brand">Reithan Guitar Picks</p>
+                          <p class="product-short-description">Durable and stylish guitar picks</p>  
+                            <div class="price">₱63.00 <span class="actual-price">₱70.00</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Product 4 -->
+                <div class="column-xs-12 column-sm-6 column-md-3">
+                    <div class="product-card">
+                        <div class="product-image">
+                          <img src="Images/30 ID lanyard.png" alt="ID Lanyards" class="product-thumb">
+                            <span class="discount-tag">5% OFF</span>
+                            <button class="card-btn" data-id="28" data-name="Reithan ID Lanyards" data-img="images/30 ID lanyard.png" data-price="38.00">ADD TO CART</button>
+                        </div>
+                        <div class="product-info">
+                          <p class="product-brand">Reithan ID Lanyards</p>
+                          <p class="product-short-description">High-quality lanyards</p>  
+                            <div class="price">₱38.00 <span class="actual-price">₱40.00</span>
+                            </div>
+                        </div>
+                    </div>
+              </div>
+          </div>
+       </section>
+
+       <section class="shop-section">
+        <div class="container">
+            <div class="grid">
+                <!-- Product 1 -->
+                <div class="column-xs-12 column-sm-6 column-md-3">
+                    <div class="product-card">
+                        <div class="product-image">
+                          <img src="Images/32.png" alt="Journal Notebook" class="product-thumb">
+                            <span class="discount-tag">20% OFF</span>
+                            <button class="card-btn" data-id="29" data-name="Reithan Journal Notebook" data-img="images/32.png" data-price="40.00">ADD TO CART</button>
+                        </div>
+                        <div class="product-info">
+                          <p class="product-brand">Reithan Journal Notebook</p>
+                          <p class="product-short-description">A premium for journaling</p>  
+                            <div class="price">₱40.00 <span class="actual-price">₱50.00</span></div>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Product 2 -->
+                <div class="column-xs-12 column-sm-6 column-md-3">
+                    <div class="product-card">
+                        <div class="product-image">
+                          <img src="Images/34 hair clips.png" alt="Hair Pins" class="product-thumb">
+                            <span class="discount-tag">15% OFF</span>
+                            <button class="card-btn" data-id="30" data-name="Reithan Hair Pins" data-img="images/34 hair clips.png" data-price="60.00">ADD TO CART</button>
+                        </div>
+                        <div class="product-info">
+                          <p class="product-brand">Reithan Hair Pins</p>
+                          <p class="product-short-description">Stylish and functional</p>  
+                            <div class="price">₱60.00 <span class="actual-price">₱70.00</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Product 3 -->
+                <div class="column-xs-12 column-sm-6 column-md-3">
+                    <div class="product-card">
+                        <div class="product-image">
+                          <img src="Images/36 bottle opener.png" alt="Bottle Opener" class="product-thumb">
+                            <span class="discount-tag">10% OFF</span>
+                            <button class="card-btn">ADD TO CART</button>
+                        </div>
+                        <div class="product-info">
+                          <p class="product-brand">Reithan Bottle Opener</p>
+                          <p class="product-short-description">Stylish and functional</p>  
+                            <div class="price">₱63.00 <span class="actual-price">₱70.00</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Product 4 -->
+                <div class="column-xs-12 column-sm-6 column-md-3">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="Images/1 totebag.png" alt="Tank Top" class="product-thumb">
+                            <span class="discount-tag">LIMITED EDITION</span>
+                            <button class="card-btn" data-id="31" data-name="Reithan Limtied Tote Bag" data-img="images/1 totebag.png" data-price="38.00">ADD TO CART</button>
+                        </div>
+                        <div class="product-info">
+                            <p class="product-brand">Reithan Limtied Tote Bag</p>
+                            <p class="product-short-description">Light and aesthetic</p>
+                            <div class="price">₱38.00 <span class="actual-price">₱40.00</span>
+                            </div>
+                        </div>
+                    </div>
+              </div>
+          </div>
+       </section>
+
+       <section class="shop-section">
+        <div class="container">
+            <div class="grid">
+                <!-- Product 1 -->
+                <div class="column-xs-12 column-sm-6 column-md-3">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="Images/3 pouch.png" alt="T-Shirt" class="product-thumb">
+                            <span class="discount-tag">LIMITED EDITION</span>
+                            <button class="card-btn" data-id="32" data-name="Reithan Limited Pouch" data-img="images/3 pouch.png" data-price="40.00">ADD TO CART</button>
+                        </div>
+                        <div class="product-info">
+                            <p class="product-brand">Reithan Limited Pouch</p>
+                            <p class="product-short-description">A pouch for pouch lovers!</p>
+                            <div class="price">₱40.00 <span class="actual-price">₱50.00</span></div>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Product 2 -->
+                <div class="column-xs-12 column-sm-6 column-md-3">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="Images/4 pin.png" alt="Hoodie" class="product-thumb">
+                            <span class="discount-tag">LIMITED EDITION</span>
+                            <button class="card-btn" data-id="33" data-name="Reithan Limited Pin" data-img="images/4 pin.png" data-price="60.00">ADD TO CART</button>
+                        </div>
+                        <div class="product-info">
+                            <p class="product-brand">Reithan Limited Pin</p>
+                            <p class="product-short-description">A pin ready to clip your hair!</p>
+                            <div class="price">₱60.00 <span class="actual-price">₱70.00</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Product 3 -->
+                <div class="column-xs-12 column-sm-6 column-md-3">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="Images/6 harap.png" alt="Sweater" class="product-thumb">
+                            <span class="discount-tag">LIMITED EDITION</span>
+                            <button class="card-btn" data-id="34" data-name="Reithan Limited T-Shirt" data-img="images/6 harap.png" data-price="63.00">ADD TO CART</button>
+                        </div>
+                        <div class="product-info">
+                            <p class="product-brand">Reithan Limited T-Shirt</p>
+                            <p class="product-short-description">Warm and stylish T-Shirt</p>
+                            <div class="price">₱63.00 <span class="actual-price">₱70.00</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Product 4 -->
+                <div class="column-xs-12 column-sm-6 column-md-3">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="Images/8 harap.png" alt="Tank Top" class="product-thumb">
+                            <span class="discount-tag">LIMITED EDITION</span>
+                            <button class="card-btn" data-id="35" data-name="Reithan Limited T-Shirt" data-img="images/8 harap.png" data-price="38.00">ADD TO CART</button>
+                        </div>
+                        <div class="product-info">
+                            <p class="product-brand">Reithan Limited T-Shirt</p>
+                            <p class="product-short-description">Light and breathable T-Shirt</p>
+                            <div class="price">₱38.00 <span class="actual-price">₱40.00</span>
+                            </div>
+                        </div>
+                    </div>
+              </div>
+          </div>
+       </section>
+
+
+    </main>
+   
+       <footer>
+      <div class="footer-container">
+          <div class="footer-social">
+            <h3>FIND US ON:</h3>
+            <a href="#"><img src="Images/icon-facebook.svg"></a>
+            <a href="#"><img src="Images/icon-twitter.svg"></a>
+            <a href="#"><img src="Images/icon-instagram.svg"></a>
+            <a href="#"><img src="Images/icon-youtube.svg"></a>
+            <a href="#"><img src="Images/icon-pinterest.svg"></a>
+          </div>
+        </div>
+        <div class="footer-content">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Community</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Our Team</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-copy">
+        <p>Copyright &#169;2024; Designed by<span class="loveko">JRE</span></p>
+      </div>
+     </footer>
+
+  </body>
+
+
+  <script src="main.js"></script>
+  <script>AOS.init();</script>
+</html>

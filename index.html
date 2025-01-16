@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JRE</title>
+    <link rel="icon" type="image/x-icon" href="Images/oh nono.png">
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/responsive.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rufina:wght@700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/js/swiffy-slider.min.js" crossorigin="anonymous" defer></script>
+    <link href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/css/swiffy-slider.min.css" rel="stylesheet" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Philosopher:wght@400;700&family=Poppins:wght@400;500&family=Rufina:wght@400;700&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <!--NavBar-->
+
+    <nav id="top">
+      <div class="container">
+        <div class="top-left contacts hidden-xs">
+          <span class="contact-time">
+            <i class="fa-regular fa-clock fa2"></i>
+          <span>Mon-Sat: 8:00 AM - 6:00 PM / Sun Closed</span>
+          </span>
+        </div>
+        <div class="top-right">
+          <div id="header_ac" class="dropdown">
+            <a href="#" title="My Account" class="dropdown-toggle" data-toggle="dropdown" >
+                <span>
+                  <i class="fa-regular fa-user fa2"></i>
+                  My Account
+              </span>
+            </a>
+            <ul class="dropdown-menu dropdown-menu-right account-link-toggle" style="display: none;">
+              <li>
+                <a href="#">Register</a>
+              </li>
+              <li>
+                <a href="#">Login</a>
+              </li>
+             </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+
+      <header>
+        <div class="header-top">
+          <div class="container">
+            <div class="grid">
+              <div class="contact-icon column-md-4 hidden-xs hidden-sm">
+                <a ckass=search-button href="Faq.html">
+                  <i class="icon-support"></i>
+                  <span>
+                  <span>Call Us</span><br>
+                  <span>Free Support: 911</span>
+                  </span>
+                </a>
+              </div>
+
+              <div id="logo" class="column-md-4 column-xs-6">
+                <a href=""><img src="Images/JRELOGO.png" alt=""></a>
+              </div>
+
+              <div class="header-right header-links column-md-4 column-xs-6">
+                  <div class="btn_search">
+                    <a href="" class="search-btn">
+                      <i class="fa-solid fa-magnifying-glass icon-search"></i>
+                    </a>
+                  </div>
+
+                    <div class="header_cart">
+                      <div id="cart">
+                        <button type="button" data-toggle="dropdown" class="btn btn-inverse btn-block btn-lg dropdown-toggle pull-right">
+                          <span id="cart-total">0</span>
+                        </button>
+                        <ul class="dropdown-menu cart-items header-cart-toggle pull-right" style="display: none;">
+                          <li class="empty-cart">
+                              Your Shopping cart is empty!
+                          </li>
+                          <li class="checkout-button" style="display: none;">
+                            <button id="checkout-btn" class="btn">Checkout</button>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+              </div>
+
+            </div>
+          </div>
+          <div class="header-search">
+              <div id="jonsearch" class="input-group jon-search">
+                <input type="text" name="search" placeholder="Search..." class="form-control input-lg ui-autocomplete-input"
+                autocomplete="off">
+                <span class="btn-search">
+                  <button type="button" class="btn btn-default btn-lg">
+                    <i class="fa-solid fa-magnifying-glass icon-search"></i>
+                  </button>
+                </span>
+              </div>
+              <i class="fa-solid fa-x"></i>
+          </div>
+        </div>
+         
+        <hr class="divider">
+
+          <div class="header-center">
+            <div class="container">
+              <nav id="menu" class="navbar navbar_menu">
+                <ul class="nav navbar-nav">
+                  <li><a href="index.html" id="home">HOME</a></li>
+                  <li><a href="shop.html" id="home">SHOP BY</a></li>
+                  <li><a href="Faq.html" id="home">FAQS</a></li>
+                  <li><a href="who.html" id="home">WHO WE ARE</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+       </header>
+  
+
+  
+
+      <!--endHeaderNav-->
+
+      <main>
+
+      <!-- Home Section -->
+
+        <section>
+          <div class="swiffy-slider slider-nav-autoplay slider-nav-autopause slider-item-ratio slider-item-ratio-21x9 slider-nav-animation slider-nav-animation-fadein slider-nav-round  slider-nav-sm slider-nav-dark slider-nav-autohide slider-indicators-round slider-indicators-dark"  id="swiffy-animation">
+            <ul class="slider-container" id="container1">
+              <li id="slide1" class=""><img src="Images/banners.webp" alt="" loading="lazy"></li>
+              <li id="slide2" class=""><img src="Images/bannergold.png" alt="" loading="lazy"></li>
+              <li id="slide3" class="slide-visible"><img src="Images/SALEJRE.png" alt="" loading="lazy"></li>
+              <li id="slide4" class=""><img src="images/BannerJRE.png"  alt="" loading="lazy"></li>
+            </ul>
+        
+            <button type="button" class="slider-nav" aria-label="Go to previous"></button>
+            <button type="button" class="slider-nav slider-nav-next" aria-label="Go to next"></button>
+        
+          </div>
+            <div class="service-box">
+              <div class="grid container">
+                <div class="service-item column-xs-6 column-sm-3">
+                  <div class="service">
+                    <div class="service-icon icon-plane">
+                    </div>
+                    <div class="service-content">
+                      <h4 class="promo-title">FREE SHEEPING WORLDWIDE</h4>
+                    <span class="promo-desc">On order over ₱150</span>
+                     </div>
+                  </div>
+                </div>
+
+                <div class="service-item column-xs-6 column-sm-3">
+                  <div class="service">
+                    <div class="service-icon icon-wallet">
+                    </div>
+                    <div class="service-content">
+                      <h4 class="promo-title">CASH ON DELIVERY</h4>
+                    <span class="promo-desc">100% money back guarantee</span>
+                     </div>
+                  </div>
+                </div>
+
+                <div class="service-item column-xs-6 column-sm-3">
+                  <div class="service">
+                    <div class="service-icon icon-gift">
+                    </div>
+                    <div class="service-content">
+                      <h4 class="promo-title">SPECIAL GIFT CARD</h4>
+                    <span class="promo-desc">Offer special bonuses with gift</span>
+                     </div>
+                  </div>
+                </div>
+
+                <div class="service-item column-xs-6 column-sm-3">
+                  <div class="service">
+                    <div class="service-icon icon-call">
+                    </div>
+                    <div class="service-content">
+                      <h4 class="promo-title">24/7 CUSTOMER SERVICE</h4>
+                    <span class="promo-desc">Call us 24/7 at 911</span>
+                     </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+  
+        </section>
+    <!-- End Home section -->
+
+        
+        <section class="product padding-block-900"> 
+          <h2 class="product-category">Products</h2>
+          <button class="pre-btn arrow-icon"></button>
+          <button class="nxt-btn arrow-icon"></button>
+          <div class="product-container">
+              <div class="product-card">
+                  <div class="product-image">
+                      <span class="discount-tag">50% off</span>
+                      <img src="images/Card1.png" class="product-thumb" alt="">
+                      <button class="card-btn" data-id="1" data-name="Product 1" data-img="images/Card1.png" data-price="20.00">BUY NOW</button>
+                  </div>
+                  <div class="product-info">
+                      <h2 class="product-brand">RoseThreads T-Shirt</h2>
+                      <p class="product-short-description">Comfortable and stylish T-shirt</p>
+                      <span class="price">₱400.00</span><span class="actual-price">₱50.00</span>
+                  </div>
+              </div>
+              <div class="product-card">
+                  <div class="product-image" style="background-color: #eaeaec;">
+                      <img src="images/Card2.png" class="product-thumb" alt="">
+                      <button class="card-btn" data-id="2" data-name="Product 2" data-img="images/Card2.png" data-price="20.00">BUY NOW</button>
+                  </div>
+                  <div class="product-info">
+                      <h2 class="product-brand">RoseThreads Hoodie</h2>
+                      <p class="product-short-description">Cozy to keep you warm and stylish</p>
+                      <span class="price">₱600.00</span><span class="actual-price">₱600.00</span>
+                  </div>
+              </div>
+              <div class="product-card">
+                  <div class="product-image">
+                      <span class="discount-tag">50% off</span>
+                      <img src="images/Card3.png" class="product-thumb" alt="">
+                      <button class="card-btn" data-id="3" data-name="Product 3" data-img="images/Card3.png" data-price="20.00">BUY NOW</button>
+                  </div>
+                  <div class="product-info">
+                      <h2 class="product-brand">RoseThreads Sweater</h2>
+                      <p class="product-short-description">Warm and stylish sweater</p>
+                      <span class="price">₱200.00</span><span class="actual-price">₱400.00</span>
+                  </div>
+              </div>
+              <div class="product-card">
+                  <div class="product-image">
+                      <span class="discount-tag">50% off</span>
+                      <img src="images/Card4.png" class="product-thumb" alt="">
+                      <button class="card-btn" >BUY NOW</button>
+                  </div>
+                  <div class="product-info">
+                      <h2 class="product-brand">RoseThreads Tank Top</h2>
+                      <p class="product-short-description">Light and breathable</p>
+                      <span class="price">₱200</span><span class="actual-price">₱400</span>
+                  </div>
+              </div>
+              <div class="product-card">
+                  <div class="product-image">
+                      <span class="discount-tag">50% off</span>
+                      <img src="images/Card5.png" class="product-thumb" alt="">
+                      <button class="card-btn">BUY NOW</button>
+                  </div>
+                  <div class="product-info">
+                      <h2 class="product-brand">RoseThreads Polo Shirt</h2>
+                      <p class="product-short-description">A very comfortable polo shirt</p>
+                      <span class="price">₱200</span><span class="actual-price">₱400</span>
+                  </div>
+              </div>
+              <div class="product-card">
+                  <div class="product-image">
+                      <span class="discount-tag">50% off</span>
+                      <img src="images/Card6.png" class="product-thumb" alt="">
+                      <button class="card-btn">BUY NOW</button>
+                  </div>
+                  <div class="product-info">
+                      <h2 class="product-brand">RoseThreads Black Necktie</h2>
+                      <p class="product-short-description">A stylish necktie</p>
+                      <span class="price">₱200</span><span class="actual-price">₱400</span>
+                  </div>
+              </div>
+              <div class="product-card">
+                  <div class="product-image">
+                      <span class="discount-tag">50% off</span>
+                      <img src="images/Card7.png" class="product-thumb" alt="">
+                      <button class="card-btn">BUY NOW</button>
+                  </div>
+                  <div class="product-info">
+                      <h2 class="product-brand">RoseThreads Polo Dress</h2>
+                      <p class="product-short-description">A black stylish dress</p>
+                      <span class="price">₱300</span><span class="actual-price">₱600</span>
+                  </div>
+              </div>
+              <div class="product-card">
+                  <div class="product-image">
+                      <span class="discount-tag">50% off</span>
+                      <img src="images/Card8.png" class="product-thumb" alt="">
+                      <button class="card-btn">BUY NOW</button>
+                  </div>
+                  <div class="product-info">
+                      <h2 class="product-brand">RoseThreads Crewneck</h2>
+                      <p class="product-short-description">Cozy and Durable</p>
+                      <span class="price">₱200</span><span class="actual-price">₱400</span>
+                  </div>
+              </div>
+              <div class="product-card">
+                  <div class="product-image">
+                      <span class="discount-tag">25% off</span>
+                      <img src="images/Card9.png" class="product-thumb" alt="">
+                      <button class="card-btn">BUY NOW</button>
+                  </div>
+                  <div class="product-info">
+                      <h2 class="product-brand">REITHAN Charm Key</h2>
+                      <p class="product-short-description">A cute charm key</p>
+                      <span class="price">₱200</span><span class="actual-price">₱400</span>
+                  </div>
+              </div>
+              <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">25% off</span>
+                    <img src="images/Card10.png" class="product-thumb" alt="">
+                    <button class="card-btn">BUY NOW</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">REITHAN Belt</h2>
+                    <p class="product-short-description">A leathered belt</p>
+                    <span class="price">₱200</span><span class="actual-price">₱400</span>
+                </div>
+            </div>
+            <div class="product-card">
+              <div class="product-image">
+                  <span class="discount-tag">25% off</span>
+                  <img src="images/Card11.png" class="product-thumb" alt="">
+                  <button class="card-btn">BUY NOW</button>
+              </div>
+              <div class="product-info">
+                  <h2 class="product-brand">REITHAN WALLET</h2>
+                  <p class="product-short-description">A wallet for you!</p>
+                  <span class="price">₱200</span><span class="actual-price">₱400</span>
+              </div>
+          </div>
+          <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag">25% off</span>
+                <img src="images/Card12.png" class="product-thumb" alt="">
+                <button class="card-btn">BUY NOW</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">REITHAN SCARF</h2>
+                <p class="product-short-description">A comfortable scarf</p>
+                <span class="price">₱200</span><span class="actual-price">₱400</span>
+            </div>
+        </div>
+    
+      
+      </section>
+
+      <div class="seeallc padding-block-400">
+        <a href="shop.html" class="seeall">SEE ALL PRODUCTS</a>
+      </div>
+       
+      <section class="padding-block-900 ">
+
+        <div class="headerprime">
+          <div class="padding-block-700">
+            <h1 class="fs-secondary-heading fw-semibold">Designer Clothes for You</h1>
+            <span>Immerse yourself in the world of luxury fashion with our meticulously crafted designer clothes!</span>
+          </div>
+        </div>
+
+          <div class="designerouter">
+            <div class="container">
+              <div class="grid">
+                <div class="column-xs-12 column-md-4 designer-content">
+                  <div class="designer-desc">
+                    <img style="background-color: rgba(192,202,201,255);" src="Images/modeljre1.png" alt="">
+                    <h3>Accessories</h3>
+                    <span>Complete your ensemble with designer accessories such as handbags, scarves, belts, and hats.</span>
+                  </div>
+                </div>
+                <div class="column-xs-12 column-md-4 designer-content">
+                  <div class="designer-desc">
+                    <img style="background-color: rgba(192,202,201,255);" src="Images/modeljre2.png" alt="">
+                    <h3>Dresses</h3>
+                    <span>Explore a stunning range of designer dresses, including evening gowns and chic day dresses.</span>
+                  </div>
+                </div>  
+                <div class="column-xs-12 column-md-4 designer-content">
+                  <div class="designer-desc">
+                    <img style="background-color: rgba(192,202,201,255);" src="Images/modeljre6.png" alt="">
+                    <h3>Outerwear</h3>
+                    <span>Browse luxurious designer coats, jackets, and blazers to stay stylishly warm during colder seasons.</span>
+                  </div>
+                </div>
+              </div>
+          </div>
+      </section>
+
+      <section class="padding-block-900">
+        
+        <div class="headerprime">
+          <div class="padding-block-700">
+            <h1 class="fs-secondary-heading fw-semibold">Visual Statements</h1>
+          </div>
+        </div>
+
+
+        <div class="swiffy-slider slider-item-show2 slider-item-show2-sm slider-item-ratio slider-item-ratio-32x9 slider-item-nogap slider-item-snapstart slider-nav-arrow slider-nav-dark slider-indicators-round slider-indicators-dark slider-indicators-sm">
+          <div class="slider-container">
+              <div class="slide-contain slide-bg slide-visible">
+                  <div id="slide1" class="slide-content slide-p3">
+                    <h3 class="text-uppercase-slider">BENEFITS IN BUYING ON OUR WEBSITE</h3>
+                    <span>Enjoy exclusive deals, fast shipping, and secure shopping – all in one place!</span>
+                    <button class="btn">Read More</button>
+                  </div>
+                </div>
+              <div class="slide-contain slide-bg2 slide-visible">
+                  <div id="slide2" class="slide-content slide-p3">
+                    <h3 class="text-uppercase-slider">JOIN THE WEBINAR THIS WEEK</h3>
+                    <span>There will be a free webinar this week at june 19 around 8pm! Come and join us!</span>
+                    <button class="btn">Read More</button>
+                  </div>
+                </div>
+              <div class="slide-contain slide-bg">
+                  <div id="slide3" class="slide-content slide-p3">
+                    <h3 class="text-uppercase-slider">SHOW YOUR CREATIVITY THIS DECEMBER!</h3>
+                    <span>Unwrap your creativity this December – discover unique gifts and festive finds!</span>
+                    <button class="btn">Read More</button>
+                  </div>
+                </div>
+              <div class="slide-contain slide-bg2">
+                  <div id="slide4" class="slide-content slide-p3">
+                    <h3 class="text-uppercase-slider">Celebrate in style. Find your perfect gifts this December!</h3>
+                    <span>Embrace the magic of December with handpicked gifts that bring joy and style to your holiday season!</span>
+                    <button class="btn">Read More</button>
+                  </div>
+                </div>
+            </div>
+      
+          <button type="button" class="slider-nav"></button>
+          <button type="button" class="slider-nav slider-nav-next"></button>
+      </div>
+      </section>
+
+
+      </main>      
+       
+   <!--Footer-->
+
+     <footer>
+      <div class="footer-container">
+          <div class="footer-social">
+            <h3>FIND US ON:</h3>
+            <a href="#"><img src="Images/icon-facebook.svg"></a>
+            <a href="#"><img src="Images/icon-twitter.svg"></a>
+            <a href="#"><img src="Images/icon-instagram.svg"></a>
+            <a href="#"><img src="Images/icon-youtube.svg"></a>
+            <a href="#"><img src="Images/icon-pinterest.svg"></a>
+          </div>
+        </div>
+        <div class="footer-content">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Community</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Our Team</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-copy">
+        <p>Copyright &#169;2024; Designed by<span class="loveko">JRE</span></p>
+      </div>
+     </footer>
+
+
+      <script src="main.js"></script>
+      <script>AOS.init();</script>
+      
+  </body>
+
+</html>
